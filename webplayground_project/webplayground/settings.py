@@ -25,8 +25,8 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-dev-key')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '').split(',')
-
+# ALLOWED_HOSTS
+ALLOWED_HOSTS = ['webplayground-curso-backend-ibm-deploy.onrender.com', 'localhost', '127.0.0.1']
 
 # Application definition
 
